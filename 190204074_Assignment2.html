@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap Project</title>
+  <title>Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -50,31 +50,28 @@
   </header>
 
 
-  <!--home section-->
+<!--home section-->
   <section class="bg-warning text-center text-sm-start pt-5" id="home">
     <div class="container">
-
-
-      <div class="d-sm-flex  p-2 align-items-center justify-content-between ">
-        <div>
-          <h1>Hi!! I am Akib Hasan</h1>
-
-          <h4>
-            <p>Student/Software Developer</p>
-          </h4>
-
+    
+    
+        <div class="d-sm-flex  p-2 align-items-center justify-content-between ">
+           <div><h1>Hi!! I am Akib Hasan</h1>
+        
+          <h4><p>Student/Software Developer</p></h4>
+        
         </div>
-        <img src="icons/profile.jpg" class="img-fluid w-25 d-none d-sm-block rounded-circle mt-2">
-
+          <img src="profile.jpg" class="img-fluid w-25 d-none d-sm-block rounded-circle mt-2">
+    
+        </div>
+      
       </div>
-
-    </div>
-  </section>
+    </section>  
 
 
 
   <!--About ME-->
-  <section id="abtme" class="bg-dark text-light pt-5 pb-2">
+  <section id="abtme" class="about_wrapper bg-dark text-light pt-5 pb-2">
     <div class="container">
 
 
@@ -89,58 +86,103 @@
           <div class="my-3 mb-lg-0">
 
             <h2>About Me</h2>
-            <p>I'm a student of Ahsanullah University of Science and technology studying in undergrad level. Besides
-              software development my hobbies include gaming and reading books. </p>
+            <p>I'm a student of Ahsanullah University of Science and technology studying in undergrad level. Besides software development my hobbies include gaming and reading books. </p>
 
-            <div class="pill_border ">
-              <div class="ps-3 pt-2 mt-2" >
+            <div class="pill_border">
+
               <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
                 role="tablist">
 
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link active " id="pills-skills-tab" data-bs-toggle="pill"
+                  <button class="nav-link active btn btn-warning" id="pills-skills-tab" data-bs-toggle="pill"
                     data-bs-target="#pills-skills" type="button" role="tab" aria-controls="pills-skills"
                     aria-selected="true">Skills</button>
                 </li>
 
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-exp-tab" data-bs-toggle="pill"
+                  <button class="nav-link btn-warning" id="pills-exp-tab" data-bs-toggle="pill"
                     data-bs-target="#pills-exp" type="button" role="tab" aria-controls="pills-exp"
                     aria-selected="false">
                     Experience</button>
                 </li>
 
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-edu-tab" data-bs-toggle="pill"
+                  <button class="nav-link btn-warning" id="pills-edu-tab" data-bs-toggle="pill"
                     data-bs-target="#pills-edu" type="button" role="tab" aria-controls="pills-edu"
                     aria-selected="false">
                     Education</button>
                 </li>
               </ul>
-              </div>
-            </div>
 
-              <div class="tab-content pt-5" id="pills-tabContent">
+              <div class="tab-content" id="pills-tabContent">
 
                 <div class="tab-pane fade show active" id="pills-skills" role="tabpanel"
                   aria-labelledby="pills-skills-tab">
-                 
-
-               
-
-
-                 <div class="container mt-3  mb-3 d-sm-flex justify-content-center">
-
-                 <img src="icons/c++.png">
-                 <img src="icons/html.png">
-                 <img src="icons/bootstrap.png">
-                 <img src="icons/kotlin.png">
-                 <img src="icons/java.png">
+                  <div class="progress_bar">
+                    <h6>C++</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">
+                      </div>
 
 
-                 </div>
 
-                 
+                    </div>
+
+                    <span class="label">90%</span>
+                  </div>
+                  <div class="progress_bar">
+                    <h6>Java</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">
+                      </div>
+
+
+
+                    </div>
+
+                    <span class="label">50%</span>
+                  </div>
+                  <div class="progress_bar">
+                    <h6>Kotlin</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">
+                      </div>
+
+
+
+                    </div>
+
+                    <span class="label">25%</span>
+                  </div>
+                  <div class="progress_bar">
+                    <h6>HTML</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">
+                      </div>
+
+
+
+                    </div>
+
+                    <span class="label">80%</span>
+                  </div>
+                  <div class="progress_bar">
+                    <h6>CSS</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">
+                      </div>
+
+
+
+                    </div>
+
+                    <span class="label">25%</span>
+                  </div>
 
 
 
@@ -156,7 +198,7 @@
 
 
                   </ul>
-
+                 
 
 
 
@@ -170,7 +212,7 @@
                     <li>SSC for MUBC 2017</li>
                     <li>HSC from SJS 2019</li>
                     <li>B.Sc form AUST 2020-present</li>
-
+                   
 
 
                   </ul>
@@ -201,111 +243,109 @@
 
 
   <section id="portfolio">
-    <div class="row bg-warning">
-      <div class="col-md m-5 d-flex justify-content-center">
+ <div class="row bg-warning">
+  <div class="col-md m-5 d-flex justify-content-center">
 
-        <h1>
-          My Projects___
-        </h1>
-
-      </div>
-    </div>
-    <div id="carouselExampleIndicators" class="carousel slide bg-warning " data-bs-ride="carousel">
-
-
-
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner ">
-        <div class="carousel-item active ">
-          <div class="card col-lg-4 col-md-5 col-sm-7 bg-dark text-light mx-auto mt-3 ">
-            <img src="icons/1.jpg" class="card-img-top img-fluid " alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Unihub</h5>
-              <p class="card-text">A mobile app for inter and intra university communication and adnibstration.Developed
-                with Kotlin and Firebase</p>
-              <a href="#" class="btn btn-primary">Github Link</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-
-
-          <div class="card col-lg-4 col-md-5 col-sm-7 bg-dark text-light  mx-auto mt-3 ">
-            <img src="icons/2.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Mr. Immunity</h5>
-              <p class="card-text">A new take on the classic runner genre. With an engovirating story line. Developed
-                using iGraphics for PC platform</p>
-              <a href="#" class="btn btn-primary">Github Link</a>
-            </div>
-          </div>
-
-
-        </div>
-        <div class="carousel-item">
-          <div class="card col-lg-4 col-md-5 col-sm-7 bg-dark text-light  mx-auto mt-3 ">
-            <img src="icons/3.png" class="card-img-top img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">DX-BALL</h5>
-              <p class="card-text">A clone of the classic birck-breaker game Dx-Ball.Developed using Java-FX for PC
-                platform.Complete with backgorund music ,highscores and credit section.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-  </section>
-
-
-  <!--contact section-->
+    <h1>
+      My Projects___
+    </h1>
+  
+  </div>
+</div>
+  <div id="carouselExampleIndicators" class="carousel slide bg-warning " data-bs-ride="carousel">
 
  
-
-
-
-
-  <div class="row p-4 bg-warning text-dark">
-
-
-    <div class="col ">
-      <h3>Call Me:</h3>
-
-      <h1>
-        <p> 01841560010 </p>
-      </h1>
-
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
-    <div class="col">
-      <h3> Email:</h3>
+    <div class="carousel-inner ">
+      <div class="carousel-item active ">
+        <div class="card bg-dark text-light mx-auto mt-3 " style="width: 25%;">
+          <img src="1.png" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Unihub</h5>
+            <p class="card-text">A mobile app for inter and intra university communication and adnibstration.Developed
+              with Kotlin and Firebase</p>
+            <a href="#" class="btn btn-primary">Github Link</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
 
-      <h1>
-        <p> akibhasanomi@gmail.com </p>
-      </h1>
 
+        <div class="card bg-dark text-light  mx-auto mt-3 " style="width: 25%;">
+          <img src="2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mr. Immunity</h5>
+            <p class="card-text">A new take on the classic runner genre. With an engovirating story line. Developed
+              using iGraphics for PC platform</p>
+            <a href="#" class="btn btn-primary">Github Link</a>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="carousel-item">
+        <div class="card bg-dark text-light  mx-auto mt-3 " style="width: 25%">
+          <img src="3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DX-BALL</h5>
+            <p class="card-text">A clone of the classic birck-breaker game Dx-Ball.Developed using Java-FX for PC
+              platform.Complete with backgorund music ,highscores and credit section.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
-
-
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
+   </section>
+
+
+     <!--contact section-->
+
+
+
+    
+
+
+     <div class="row p-4 bg-warning text-dark">
+
+       
+     <div class="col ">
+      <h3>Call Me:</h3> 
+
+      <h1><p> 01841560010 </p></h1>
+
+     </div>
+     <div class="col">
+        <h3> Email:</h3> 
+
+        <h1><p> akibhasanomi@gmail.com </p></h1>
+      
+     </div>
+
+
+     </div>
+
+   
+              
 
 
 
@@ -316,10 +356,8 @@
 
 
 
-
-
-  <!--footer-->
-  <section class="bg-dark text-light p-3 pt-5" id="contactme">
+<!--footer-->
+  <section class="footer_contact bg-dark text-light p-3 pt-5" id="contactme">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-4 col-md-6 text-center text-md-start">
@@ -334,12 +372,12 @@
 
             <li>
 
-              <a href="#"><img class="image_icons" src="icons/facebook.png"></a>
-              <a href="#"><img class="image_icons" src="icons/twitter.png"></a>
-              <a href="#"><img class="image_icons" src="icons/instagram.png"></a>
-              <a href="#"> <img class="image_icons" src="icons/youtube.png"> </a>
-              <a href="#"> <img class="image_icons" src="icons/linkedin.png"> </a>
-
+              <a href="#"><img class="image_icons" src="facebook.png" ></a>
+              <a href="#"><img class="image_icons" src="twitter.png" ></a>
+              <a href="#"><img class="image_icons" src="instagram.png"></a>
+              <a href="#"> <img class="image_icons" src="youtube.png">   </a>
+              <a href="#"> <img class="image_icons" src="linkedin.png">   </a>
+              
 
             </li>
           </ul>
@@ -348,7 +386,7 @@
           <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
             <p class="mb-0"> Copy Right © 2022 Potato Inc. All Rights Reserved</p>
           </div>
-
+      
         </div>
       </div>
     </div>
@@ -358,10 +396,18 @@
   </section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous">
-    </script>
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
